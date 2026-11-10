@@ -2,7 +2,7 @@
 
 Personal website for Matt Hulet, Loan Officer at Express Mortgage in Springfield, Missouri.
 
-**Live site:** (https://github.com/mjhtigers4/mattlend.github.io)
+**Live site:** (https://mjhtigers4.github.io/mattlends/)
 
 ## About
 A one-page site for homebuyers and referral partners. It covers who I am, the loan options I offer, how the process works, and how to reach me.
