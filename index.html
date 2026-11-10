@@ -42,6 +42,19 @@ header{background:var(--bg);border-bottom:1px solid var(--line)}
 .cta{display:flex;gap:12px;flex-wrap:wrap}
 .fine{font-size:.9rem;color:var(--mute);margin-top:.9rem}
 .photo{position:relative;aspect-ratio:4/5;background:var(--blue);box-shadow:14px 14px 0 var(--orange);margin:0}.photo img{width:100%;height:100%;object-fit:cover;object-position:50% 12%;display:block}.photo figcaption{position:absolute;left:0;bottom:0;background:#fff;color:var(--navy);padding:10px 16px;font:800 1rem "Archivo",Arial,sans-serif;line-height:1.2}.photo figcaption small{display:block;font:400 .78rem "Source Sans 3",sans-serif;color:#46546e}
+.photo-contact {
+    margin-top: 22px;
+    text-align: center;
+}
+
+.photo-contact .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: .04em;
+    padding: 15px 20px;
+}
 .band{background:var(--blue)}
 .band p{color:#EAF0FA}
 .grid{display:grid;gap:18px}
@@ -93,8 +106,16 @@ section{padding:48px 0}.links a:not(.btn){display:none}
 <div class="cta"><a class="btn p" href="#apply">Apply now</a><a class="btn s" href="#contact">Talk to Matt</a></div>
 <p class="fine">Free and no obligation. Springfield, MO. Matt’s NMLS #2859110</p>
 </div>
-<figure class="photo"><img src="headshot.jpg" alt="Matt Hulet, loan officer at Express Mortgage" width="800" height="1114"><figcaption>Matt Hulet<small>Loan Officer, NMLS #2859110</small></figcaption></figure>
-</div></div>
+<figure class="photo">
+<img src="headshot.jpg" alt="Matt Hulet, loan officer at Express Mortgage" width="800" height="1114">
+<figcaption>Matt Hulet<small>Loan Officer, NMLS #2859110</small></figcaption>
+</figure>
+
+<div class="photo-contact">
+<a href="./Matt-Hulet.vcf" download class="btn p">
+    + SAVE MY CONTACT
+</a>
+</div>
 
 <section class="band" id="about"><div class="wrap">
 <h2>New to lending, not new to homes.</h2>
